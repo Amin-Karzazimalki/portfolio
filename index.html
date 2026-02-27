@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - AMIN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="logo.png" alt="Logo"> <!-- remplace par ton logo -->
+        <img id="profile-img" src="photo.jpg" alt="AMIN"> <!-- remplace par ta photo -->
+        <h1 id="name">AMIN</h1>
+        <p id="title">Full-Stack Developer</p>
+    </header>
+
+    <nav>
+        <button data-lang="en">English</button>
+        <button data-lang="fr">Français</button>
+        <button data-lang="ar">عربي</button>
+        <button data-lang="pt">Português</button>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2 id="about-title">About Me</h2>
+            <p id="about-text">
+                Passionate full-stack developer with experience in modern web technologies.
+                <!-- Ajoute ton texte ici pour la langue par défaut (anglais) -->
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2 id="skills-title">Skills</h2>
+            <ul id="skills-list">
+                <li>HTML5</li>
+                <li>CSS3 / SCSS</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React / Next.js</li>
+                <li>Node.js / Express</li>
+                <li>MongoDB / PostgreSQL</li>
+                <li>Git & GitHub</li>
+                <!-- Ajoute / retire selon tes compétences -->
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2 id="projects-title">Projects</h2>
+            <div class="projects-grid" id="projects-list">
+                <!-- Exemple de projet – duplique et modifie -->
+                <div class="project-card">
+                    <h3>Project Name</h3>
+                    <p>Description brève du projet en anglais ici...</p>
+                    <a href="#" target="_blank">View Project →</a>
+                </div>
+                <!-- Ajoute d'autres .project-card ici -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 id="contact-title">Contact</h2>
+            <p id="contact-text">
+                Email: amin@example.com<br>
+                Location: Osasco, SP – Brazil<br>
+                LinkedIn / GitHub / WhatsApp : <!-- mets tes liens -->
+            </p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
